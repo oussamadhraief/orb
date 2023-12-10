@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { TbLock } from "react-icons/tb";
-import { CiInstagram } from "react-icons/ci";
-import { GoDot } from "react-icons/go";
+import { IoLogoInstagram } from "react-icons/io";
 
 export default function Home() {
   return (
@@ -28,7 +27,7 @@ export default function Home() {
       </div>
       <div className="absolute w-full bottom-2 sm:bottom-5 flex items-center justify-center gap-7 bg-secondary h-8 sm:h-10 text-primary text-lg regular-font">
         <div className="flex items-center gap-1 text-base sm:text-lg">
-          <CiInstagram className="w-6 sm:w-7 h-6 sm:h-7" />
+          <IoLogoInstagram  className="w-6 sm:w-7 h-6 sm:h-7" />
           @orb-16
         </div>
       </div>
